@@ -1,19 +1,7 @@
 #calculator
 
-def add2(a,b):
-    return a + b
+from allOperators import *
 
-def sub2(a,b):
-    return a - b
-
-def mul2(a,b):
-    return a * b
-
-def div2(a,b):
-    return a / b
-
-def mod2(a,b):
-    return a % b
 
 a = int(input("enter a:"))
 b = int(input("enter b:"))
